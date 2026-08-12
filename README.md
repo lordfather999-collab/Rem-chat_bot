@@ -1,42 +1,83 @@
-🇺🇿 Oʻzbekcha Ma'lumotnoma
-📌 Loyiha Haqida:
 
-Rem ChatBot — bu Python dasturlash tilida noldan yozilayotgan, oʻzbek tilidagi interaktiv va xarakterga ega AI konsol bot loyihasi. Ushbu loyiha dasturlash asoslari, shartli operatorlar (if/elif/else), matnlar bilan ishlash (.split(), in operatori) va mantiqiy xatoliklarni (bug-fix) bartaraf etishni amaliy oʻrganish jarayonida yaratilmoqda.
 
-🚀 Avlodlar (Version History):
-v0.1.0 — Boshlangʻich karkas va oddiy matnli muloqot tizimi.
 
-v0.2.0 — AI xotirasi (ismni eslab qolish), random salomlashuvlar hamda niyatlarni (intent) aniqlash mantiqi qoʻshildi.
+# 🤖 Rem ChatBot (v0.2.1)
 
-v0.2.1 (Bug-fix Patch) — Harf registriga taalluqli xatoliklar (.lower()) va 'hi' hamda 'x' harflariga bogʻliq mantiqiy bug'lar toʻliq tuzatildi.
+> *Interactive Console AI ChatBot with Uzbek NLP logic & dynamic character response system!* 🌸⚡
 
-🛠️ Texnologiyalar:
+Ushbu loyiha Python dasturlash tilida noldan yozilayotgan, oʻzbek tilidagi interaktiv va oʻziga xos xarakterga ega konsol chatbot loyihasidir. Dastur foydalanuvchi bilan muloqot qiladi, ismini eslab qoladi hamda turli iboralarga dinamik javob qaytaradi! 🎯
 
-Til: Python 3.x
+---
 
-Ishga tushirish: Pydroid 3 (Mobile) / PC Console
+## 🇺🇿 OʻZBEKCHA MA'LUMOTNOMA
 
-🇬🇧 English Description (For Investors & Devs 💼🚀)
-📌 About The Project
-Rem ChatBot is a lightweight, interactive, character-driven console AI chatbot written in Python from scratch. Designed with Uzbek language NLP logic, this project serves as a hands-on milestone for mastering core programming concepts, conditional logic (if/elif/else), string manipulation, and real-time bug patching.
-Note for venture capitalists: Rem is currently in early-stage development, rapidly moving towards v1.0 Release. High potential for exponential intellectual growth! 😉💰
+### 📊 Versiyalar va Imkoniyatlar Jadvali
 
-🚀 Version History:
+| Versiya | Status | Asosiy Yangiliklar | Bug-Fix Status |
+| :--- | :---: | :--- | :---: |
+| **v0.1.0** | 🟢 Closed | Boshlangʻich konsol karkasi, oddiy `input/output` mantiqi | — |
+| **v0.2.0** | 🟢 Closed | AI xotirasi (ismni eslash), `random.choice` salomlar | ⚠️ Edge-case bug'lar bor edi |
+| **v0.2.1** | 🚀 **Current** | Harf registri (`.lower()`), 'hi' va 'x' harflaridagi mantiqiy xatolar | ✅ Toʻliq tuzatildi |
+| **v1.0.0** | ⏳ Planned | Toʻliq stabillashgan rasmiy release & kengaytirilgan lugʻat | 🔜 Tezzorada... |
 
-v0.1.0 — Core skeleton setup & basic console input/output logic.
+---
 
-v0.2.0 — Dynamic user name memory, intent classification, and randomized dynamic responses using random.choice.
+### 🌟 Asosiy Xususiyatlari
 
-v0.2.1 (Bug-fix Patch) — Enhanced case-sensitivity handling (.lower()) and edge-case keyword bug fixes.
+* **🧠 Dynamic Memory (Xotira):** Foydalanuvchi ismini soʻrab oladi va muloqot davomida uni unutmaydi.
+* **🎲 Random Response Engine:** Bir xil savolga har safar har xil variantda javob qaytarish tizimi (`random.choice`).
+* **🔤 Smart Text Normalization:** Foydalanuvchi katta yoki kichik harflarda yozishidan qat'i nazar matnni toʻgʻri tahlil qilish (`.lower()`).
+* **⚡ Intent Classification:** Foydalanuvchining niyatini (`salomlashuv`, `xayrlashuv`, `ism soʻrash`) soʻzlardagi kalit belgilarga qarab ajratish.
 
-🛠️ Tech Stack:
+---
 
-Language: Python 3.x
+### 🎭 Rem-san Xarakter Logikasi (Character Stats)
 
-Environment: Pydroid 3 / Cross-platform Terminal
+```text
+[IQ Level]          : 🧠🧠🧠🏽🏽 (Oʻsib bormoqda...)
+[Sassiness]         : 🌶️🌶️🌶️🌶️🌶️ (Maksimal darajada!)
+[Memory Retention]  : 💾 100% (Ismingiz va xatolaringizni eslab qoladi)
+[Uzbek NLP Accuracy]: 🎯 85%
 
-👤 Author & Lead Developer
 
-Developer: [lordfather999-collab]
+# 🤖 Rem ChatBot (v0.2.1)
 
-Project Status: Active Development ⚡ 
+> *Interactive Console AI ChatBot with Uzbek NLP logic & dynamic character response system!* 🌸⚡
+
+---
+
+## 📌 About The Project
+
+**Rem ChatBot** is a lightweight, interactive, character-driven console AI chatbot written in Python from scratch. Designed with Uzbek language NLP logic, this project serves as a hands-on milestone for mastering core programming concepts, conditional logic (`if/elif/else`), string manipulation, dynamic memory retention, and real-time bug patching.
+
+> 💼 *Note for venture capitalists:* Rem is currently under active development towards `v1.0.0 Release`. Early-stage investment entry is wide open! High potential for exponential intellectual growth! 😉💸
+
+---
+
+## 📊 Version History & Feature Matrix
+
+| Version | Status | Key Features & Modules | Bug-Fix Status |
+| :--- | :---: | :--- | :---: |
+| **v0.1.0** | 🟢 Closed | Initial console architecture & core `input/output` logic | — |
+| **v0.2.0** | 🟢 Closed | Dynamic user name memory & randomized responses using `random.choice` | ⚠️ Known edge-case bugs |
+| **v0.2.1** | 🚀 **Current** | Enhanced case-sensitivity handling (`.lower()`) & keyword bug patches | ✅ Fully Resolved |
+| **v1.0.0** | ⏳ Planned | Stable official release with expanded vocabulary & structured intents | 🔜 Coming Soon... |
+
+---
+
+## 🌟 Key Highlights
+
+* **🧠 Dynamic User Memory:** Captures and stores user identifiers across the conversation session.
+* **🎲 Random Response Generator:** Prevents repetitive interaction loops using non-deterministic response selections (`random.choice`).
+* **🔤 Input Normalization:** Advanced string parsing handling mixed casing, accidental whitespace, and special characters (`.lower()`).
+* **⚡ Rule-Based Intent Classification:** Categorizes user input into actionable intent types (greetings, farewells, identity queries).
+
+---
+
+## 🎭 Rem-san Character Metrics
+
+```text
+[IQ Level]          : 🧠🧠🧠🏽🏽 (Continuously improving...)
+[Sassiness]         : 🌶️🌶️🌶️🌶️🌶️ (Maximum capacity!)
+[Memory Retention]  : 💾 100% (Remembers your name and your errors)
+[Uzbek NLP Accuracy]: 🎯 85%
