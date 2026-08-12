@@ -1,0 +1,33 @@
+import string
+
+def tekshir(user_input):
+	if "anime" in user_input or "manga" in user_input or "animeshnik" in user_input:
+		return "siz animega qiziqasiz shekili.. sizga qanday animelar yoqadi? "
+	elif "oʻyin" in user_input or "game" in user_input or "mlbb" in user_input or "o yun" in user_input:
+		return "siz video oʻyinlar oʻynab turasizmi?"
+	else:
+		return "huh? siz ataylab men bilmaydigan mavzu haqida soʻrayabsizmi💢?"
+def cleaned_text(user_input):
+	xabar = user_input.lower( ).strip( )
+	for char in string.punctuation:
+		xabar = xabar.replace(char , " ")
+	return xabar
+def chatbot( ):
+	print("=" * 40)
+	print("Salom, Rem aloqada!")
+	print("pryom, pryom")
+	print("\nSuxbatni yakunlash uchun [X] yozing")
+	print("=" * 40)
+	
+	while True:
+		user_input = input("\nSiz: ")
+		xabar = cleaned_text(user_input)
+		if xabar == "x":
+			print("Koʻrishguncha xayr!")
+			break
+		natija = tekshir(xabar)
+		print("\nRem: " , natija)
+	
+def main( ):
+	chatbot( )
+main( )
