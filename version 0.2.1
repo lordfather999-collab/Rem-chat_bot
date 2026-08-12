@@ -1,0 +1,39 @@
+import string
+import random
+
+def rem_javob(sozlar , ism):
+	salomlar = [ f"salom {ism}-san! bugun kayfiyatingiz qanday?" , f"salom-salom {ism} ishlaringiz yaxshimi?" , f"ogo! salom {ism}-kun, sizni koʻrib turganimdan xursandman☺️" ]
+	if "salom" in sozlar or "hello" in sozlar or "hi" in sozlar:
+		return random.choice(salomlar)
+	elif "anime" in sozlar or "manga" in sozlar or "animeshnik" in sozlar:
+		return "siz animega qiziqasiz shekili.. sizga qanday animelar yoqadi? "
+	elif "oʻyin" in sozlar or "game" in sozlar or "mlbb" in sozlar or "o yin" in sozlar:
+		return "siz video oʻyinlar oʻynab turasizmi?"
+	else:
+		return "huh? siz ataylab men bilmaydigan mavzu haqida soʻrayabsizmi💢?"
+def cleaned_text(user_input):
+	xabar = user_input.lower( ).strip( )
+	for char in string.punctuation:
+		xabar = xabar.replace(char , " ")
+		sozlar = xabar.split( )
+	return sozlar
+def chatbot( ):
+	print("=" * 40)
+	print("Salom, Rem aloqada!")
+	print("pryom, pryom")
+	print("\nSuxbatni yakunlash uchun [STOP] yozing")
+	print("=" * 40)
+	ism = input("\nBoshlash uchun ismingizni kiriting: ").capitalize( )
+	print(f"\nMening ismim Rem! siz bilan tanishganimdan xursandman {ism}")
+	while True:
+		user_input = input(f"\n{ism}: ")
+		sozlar = cleaned_text(user_input)
+		if  "stop" in sozlar:
+			print(f"Koʻrishguncha xayr {ism}-san!")
+			break
+		javob = rem_javob(sozlar, ism)
+		print("\nRem: " , javob)
+	
+def main( ):
+	chatbot( )
+main( )
