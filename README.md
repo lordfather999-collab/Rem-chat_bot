@@ -8,6 +8,7 @@ v0.2.1 (Bug-fix Patch) — Harf registriga taalluqli xatoliklar (.lower()) va 'h
 🛠️ Texnologiyalar:
 Til: Python 3.x
 Ishga tushirish: Pydroid 3 (Mobile) / PC Console
+
 🇬🇧 English Description (For Investors & Devs 💼🚀)
 📌 About The Project
 Rem ChatBot is a lightweight, interactive, character-driven console AI chatbot written in Python from scratch. Designed with Uzbek language NLP logic, this project serves as a hands-on milestone for mastering core programming concepts, conditional logic (if/elif/else), string manipulation, and real-time bug patching.
